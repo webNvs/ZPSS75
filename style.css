@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@400;600&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+body{
+    
+    font-family: 'Anuphan', sans-serif;
+
+}
+
+.outer-box{
+
+    width: 100vw;
+    background: linear-gradient(to top right,#05BFDB ,#F0F0F0);
+  
+}
+
+.inner-box{
+      
+     width: 700px;
+     margin: 0 auto;
+     padding: 20px;
+     position: relative;
+     top: 50%;
+     background-color: white;
+     border-radius: 5px;
+     box-shadow: 5px 5px 5px rgb(1, 29, 34); 
+       
+}
+
+
+.signup-header h1 {
+
+    font-size: 2.5rem;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(3, 3, 70);
+ 
+
+}
+.signup-header h2{
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 15px;
+    color: rgb(3, 3, 70);
+
+}
+.signup-header p {
+
+    font-size: 2rem;
+    color:#29A19C;
+    text-align: center;
+    background-color:#222831;
+    padding: 10px;
+
+
+
+}
+
+.signup-body{
+     margin: 20px 0;
+}
+
+.signup-body p{
+
+    margin: 10px 0;
+}
+#gender{
+  
+    display: inline-flex;
+
+}
+.signup-body p label{
+     display: block;
+     font-weight: bold;
+
+}
+
+.signup-body p input{
+
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #F0F0F0;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+
+}
+
+.signup-body p input[type="submit"]{
+  background-color:rgb(5, 116, 219);
+  border: none;
+  color: white;
+  cursor: pointer;
+
+}
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(7, 48, 90);
+
+}
+
+.signup-body p input[type="reset"]{
+    background-color:rgb(5, 116, 219);
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .signup-body p input[type="reset"]:hover{
+    background-color:  rgb(7, 48, 90);
+
+  }
+
+  textarea{
+
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+
+    }
+
+    .logo{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 100px;
+        left: 50px;
+    }
+
+    img{
+
+        float:left;
+        width:200px;
+        height:186px;
+    }
+
+    .popup{
+        width: 400px;
+        height: 400px;
+        background-color: salmon;
+        position: absolute;
+        top:0;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0.1);
+        text-align: center;
+        padding: 0 30px 30px;
+        visibility: hidden;
+
+
+    }
+
+    .open-popup{
+
+        visibility:visible:
+        top:50%;
+        transform: translate(-50%,-50%) scale(1);
+    }
+
+    span{
+    
+        background-color: black;
+        color: blanchedalmond;
+    
+    }
